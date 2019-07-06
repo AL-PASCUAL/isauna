@@ -1,0 +1,711 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*-----------------landingpage----------------*/
+
+#landing {
+	height: 100vh;
+	padding: 0;
+
+}
+
+#imge {
+	height: 100vh;
+}
+
+.logo {
+
+	height: 100px; 
+}
+
+
+
+
+/*----------------------------------history-----------------------------*/
+
+
+#home-background {
+	background-image: url(../images/5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	margin: 0;
+}
+
+#history {
+	background-color: rgba(48,37,31, .75);
+	color: white;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+/*//////     /////
+//// ///     /////
+////  ////    /////
+////  //./   /////
+////   ////  /////
+////    //// /////
+////     /////////
+////      ///////*/
+
+
+
+/*---------------------navbar------------------------------------*/
+
+#navbar {
+	background-color: #FBB016;
+	height: 10vh;
+}
+
+#navbar a {
+	color: #30251F;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+
+#navbar a:hover {
+	color: 	#EBECEC;
+	transition: .30s;
+}
+
+#navbar .active {
+	color: 	#EBECEC;
+	
+}
+
+#logo1 {
+	position: absolute;
+	top: -23%;
+	left: 0;
+	height: 25vh;
+}
+
+#logo {
+	position: absolute;
+	top: -23%;
+	left: 0;
+	height: 25vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  /////////////
+////////////////
+//////////////
+//////
+/////
+/////
+/////
+/////
+//////
+//////////////
+ ///////////////
+  //////////////*/
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------contact-----------------*/
+
+
+#contact-background {
+	background-image: url(../images/9.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	margin: 0;
+}
+
+.usog {
+	margin-left: 159px;	
+}
+
+#conbox {
+	background-color: rgba(48,37,31, .75);
+	height: 100%;
+	margin-top: 15vh;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+
+#botn {
+	background-color: #FBB016;
+	margin-bottom: 20px;
+}
+
+#sms {
+	margin: 0;
+	padding: 0;
+	color: #EBECEC;
+
+}
+
+#mapa {
+	width: 100%;
+	border: 0;
+	display: block;
+	height: 15vh;
+	padding-bottom: 20px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////         /////////
+/////////       //////////
+//////////     ///////////
+///// /////   /////	 /////
+/////  ///////////	 /////
+/////   /////////    /////
+/////    ///////	 /////
+/////     /////		 /////
+*/
+
+
+
+
+
+/*-----------------------------MENU-------------------------*/
+
+.h3b {
+	background-color: #FBB016;
+}
+
+.mbx {
+	margin: 37px 0;
+}
+
+
+
+#tain {
+	background-image: url(../images/ch.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 31vh;
+	margin-bottom: 111px;
+}
+
+
+
+#menu button:hover {
+	transition: .30s;
+	background-color: #EBECEC;
+
+}
+
+
+#menu a:hover {
+	color: grey;
+}
+
+
+.pmenu {
+	font-size: xx-large;
+}
+
+
+
+
+.isaaa {
+	height: 50vh;
+}
+
+.isaaa p {
+	width: 90%;
+}
+
+span {
+	font-size: 39px;
+}
+
+.price {
+	padding-left: 79px;
+	font-family: 'Rubik', sans-serif;
+}
+
+
+.pricel {
+	padding-left: 179px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.pricec {
+	padding-left: 43px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.priceb {
+	padding-left: 131px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.pricet {
+	padding-left: 235px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.type {
+	background-color: #30251F;
+	color: #EBECEC;
+	padding: 15px;
+}
+
+.mrgn {
+	margin-top: 100px;
+}
+/*
+.brdbx {
+	border: 1px solid red;
+}*/
+
+
+
+
+
+
+
+
+/*//////////////
+//////////////
+////
+////
+////
+////////////
+//////////
+////
+////
+////
+///
+//
+
+*/
+
+
+
+
+/*--------------------------------------------------------------------footer*/
+
+footer img {
+	height: 5vh;
+	padding-left: 31px;
+}
+
+footer {
+	height: 11vh;
+	padding: 21px 0 0 17px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---MEDIA QUERIES-----------------------400px-----*/
+
+@media only screen and (max-width: 400px) 
+{
+
+
+	/*--------------------------landing -------------*/
+
+
+	#landing {
+		height: 31vh;
+	}
+
+	#imge {
+	width: 100vh;
+	height: 31vh;
+	}
+
+
+	#intro {
+		display: none;
+	}
+
+
+	/*----------------navbar--------*/
+
+	#navbar-nav {
+		background-color: #FBB016;
+		padding-left: 199px;
+
+	}
+
+
+
+	#navbar {
+		padding: 0
+	}
+
+	#burger {
+		padding-right: 100px;
+	}
+
+
+	/*--------------------history----------*/
+
+	#home-background {
+
+	height: 105vh;
+
+	}
+
+
+	/*----------contact------------------*/
+
+	.usog {
+		margin: 19px 0 0 0;
+	}
+
+	#conbox {	
+		height: 100%;	
+		margin: 57px 0 0 0;
+	}
+
+
+	#contact-background {
+		height: 100vh;
+	}
+
+
+	/*------------Menu--------*/
+
+
+	span {
+		font-size: 19px;
+	}
+
+
+	.price {
+		padding-left: 131px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+
+	.pricel {
+		padding-left: 165px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.pricec {
+		padding-left: 99px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.priceb {
+		padding-left: 147px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.pricet {
+		padding-left: 193px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.isaaa p {
+		margin: 24px 11px;
+	}
+
+	.mrgn {
+		margin-top: 41px;
+	}
+
+	#tain {
+		margin-bottom: 10px;
+	}
+
+
+
+	/*------------footer--------*/
+
+	footer {
+		padding: 0 0 0 7px;
+		margin: 19px 0 0 19px;
+		height: 13vh;
+	}
+
+	#fut {
+		display: block;
+		margin-bottom: 11px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+/*.h3b {
+	background-color: #FBB016;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------401px--960px--------------------*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{
+
+
+	/*--------------------------landing -------------*/
+
+
+	#landing {
+		height: 31vh;
+	}
+
+	#imge {
+	width: 100vh;
+	height: 31vh;
+	}
+
+
+	#intro {
+		display: none;
+	}
+
+
+	/*----------------nav-----------*/
+	#navbar-nav {
+		background-color: #FBB016;
+		/*padding-left: 400px;*/
+	}
+
+
+
+	#navbar {
+		padding: 0
+	}
+
+	#burger {
+		padding-right: 100px;
+	}
+
+	/*--------------------history----------*/
+
+	#home-background {
+
+	height: 100vh;
+
+	}
+
+
+
+	/*----------contact------------------*/
+
+	.usog {
+		margin: 39px 0 0 0;
+	}
+
+	#conbox {	
+		height: 100%;	
+		
+	}
+
+	#contact-background {
+		height: 100%;
+		padding: 0;
+	}
+
+
+	/*------------Menu--------*/
+
+
+	#tain {
+		margin-bottom: 10px;
+	}
+
+	span {
+		font-size: 31px;
+	}
+
+
+	.price {
+		padding-left: 79px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+
+	.pricel {
+		padding-left: 136px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.pricec {
+		padding-left: 27px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.priceb {
+		padding-left: 109px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.pricet {
+		padding-left: 181px;
+		font-family: 'Rubik', sans-serif;
+	}
+
+	.mrgn {
+		margin: 10px 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*------------footer--------*/
+	footer {
+		padding: 0 0 0 71px;
+		margin: 19px 0 0 19px;
+		height: 13vh;
+	}
+
+	#fut {
+		display: block;
+		margin-bottom: 11px;
+	}
+
+
+	
+} /*-------------------------401--960--END--------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------401px--960px--------------------*/
+
+@media only screen and (min-width: 961px)
+{
+
+
+
+}
